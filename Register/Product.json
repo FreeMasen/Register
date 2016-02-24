@@ -1,0 +1,43 @@
+{"Products":[
+             {"Id" : "001",
+             "Name" : "Catan",
+             "Price" : "49.99",
+             "Description" : "Civilization building board game. 3-4 players"
+             },
+             {
+             "Id": "002",
+             "Name": "Splendor",
+             "Price": "39.99",
+             "Description": "Commerce card game. 2-4 players"
+             },
+             {
+             "Id": "003",
+             "Name": "Bohnanza",
+             "Price": "19.99",
+             "Description": "Commerce and trading card game. 2-7 players"
+             },
+             {
+             "Id": "004",
+             "Name": "Carcassonne",
+             "Price": "34.99",
+             "Description": "Civilization building board game. 2-5 players"
+             },
+             {
+             "Id": "005",
+             "Name": "Ticket To Ride",
+             "Price": "49.99",
+             "Description" : "Commerce board game. 2-5 players"
+             },
+             {
+             "Id": "006",
+             "Name": "Masterpiece",
+             "Price": "49.99",
+             "Description" : "Auction simulation board game."
+             },
+             {
+             "Id": "007",
+             "Name": "Clue",
+             "Price": "19.99",
+             "Description" : "Mystery board game"
+             }
+             ]}

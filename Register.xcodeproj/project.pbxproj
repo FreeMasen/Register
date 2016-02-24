@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81ADDF771C72272600D7A1EF /* TenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADDF761C72272600D7A1EF /* TenderViewController.swift */; };
+		81ADDF791C726F7100D7A1EF /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADDF781C726F7100D7A1EF /* CreditCard.swift */; };
+		81ADDF7D1C728C3300D7A1EF /* OrderSummaryViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADDF7C1C728C3300D7A1EF /* OrderSummaryViewContoller.swift */; };
+		81ADDF7F1C729CB300D7A1EF /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADDF7E1C729CB300D7A1EF /* Transaction.swift */; };
+		81ADDF811C72BA5D00D7A1EF /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ADDF801C72BA5D00D7A1EF /* JSONHandler.swift */; };
 		81C0A6181C6F8E5C004E47A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6171C6F8E5C004E47A1 /* AppDelegate.swift */; };
-		81C0A61A1C6F8E5C004E47A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6191C6F8E5C004E47A1 /* ViewController.swift */; };
+		81C0A61A1C6F8E5C004E47A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6191C6F8E5C004E47A1 /* MainViewController.swift */; };
 		81C0A61D1C6F8E5C004E47A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C0A61B1C6F8E5C004E47A1 /* Main.storyboard */; };
 		81C0A61F1C6F8E5C004E47A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0A61E1C6F8E5C004E47A1 /* Assets.xcassets */; };
 		81C0A6221C6F8E5C004E47A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C0A6201C6F8E5C004E47A1 /* LaunchScreen.storyboard */; };
 		81C0A62D1C6F8E5C004E47A1 /* RegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A62C1C6F8E5C004E47A1 /* RegisterTests.swift */; };
 		81C0A6381C6F8E5C004E47A1 /* RegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6371C6F8E5C004E47A1 /* RegisterUITests.swift */; };
+		81C0A6461C6F8E8B004E47A1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6451C6F8E8B004E47A1 /* Product.swift */; };
+		81C0A6481C6F91DD004E47A1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6471C6F91DD004E47A1 /* Order.swift */; };
+		81C0A64A1C6FAD48004E47A1 /* Product.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C0A6491C6FAD48004E47A1 /* Product.json */; };
+		81C0A64C1C7016C5004E47A1 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A64B1C7016C5004E47A1 /* SaleViewController.swift */; };
+		81C0A6521C703656004E47A1 /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6511C703656004E47A1 /* NewProductViewController.swift */; };
+		81D17CA71C7D3517004872EA /* Xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 81D17CA61C7D3517004872EA /* Xcode.gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81ADDF761C72272600D7A1EF /* TenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenderViewController.swift; sourceTree = "<group>"; };
+		81ADDF781C726F7100D7A1EF /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		81ADDF7C1C728C3300D7A1EF /* OrderSummaryViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewContoller.swift; sourceTree = "<group>"; };
+		81ADDF7E1C729CB300D7A1EF /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		81ADDF801C72BA5D00D7A1EF /* JSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
 		81C0A6141C6F8E5C004E47A1 /* Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C0A6171C6F8E5C004E47A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81C0A6191C6F8E5C004E47A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81C0A6191C6F8E5C004E47A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		81C0A61C1C6F8E5C004E47A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81C0A61E1C6F8E5C004E47A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C0A6211C6F8E5C004E47A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		81C0A6331C6F8E5C004E47A1 /* RegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C0A6371C6F8E5C004E47A1 /* RegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUITests.swift; sourceTree = "<group>"; };
 		81C0A6391C6F8E5C004E47A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C0A6451C6F8E8B004E47A1 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		81C0A6471C6F91DD004E47A1 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		81C0A6491C6FAD48004E47A1 /* Product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Product.json; sourceTree = "<group>"; };
+		81C0A64B1C7016C5004E47A1 /* SaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		81C0A6511C703656004E47A1 /* NewProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
+		81D17CA61C7D3517004872EA /* Xcode.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xcode.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +119,20 @@
 		81C0A6161C6F8E5C004E47A1 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				81C0A6511C703656004E47A1 /* NewProductViewController.swift */,
+				81C0A6191C6F8E5C004E47A1 /* MainViewController.swift */,
+				81C0A64B1C7016C5004E47A1 /* SaleViewController.swift */,
+				81ADDF761C72272600D7A1EF /* TenderViewController.swift */,
+				81ADDF7C1C728C3300D7A1EF /* OrderSummaryViewContoller.swift */,
 				81C0A6171C6F8E5C004E47A1 /* AppDelegate.swift */,
-				81C0A6191C6F8E5C004E47A1 /* ViewController.swift */,
 				81C0A61B1C6F8E5C004E47A1 /* Main.storyboard */,
+				81D17CA61C7D3517004872EA /* Xcode.gitignore */,
+				81C0A6451C6F8E8B004E47A1 /* Product.swift */,
+				81C0A6471C6F91DD004E47A1 /* Order.swift */,
+				81ADDF7E1C729CB300D7A1EF /* Transaction.swift */,
+				81ADDF781C726F7100D7A1EF /* CreditCard.swift */,
+				81ADDF801C72BA5D00D7A1EF /* JSONHandler.swift */,
+				81C0A6491C6FAD48004E47A1 /* Product.json */,
 				81C0A61E1C6F8E5C004E47A1 /* Assets.xcassets */,
 				81C0A6201C6F8E5C004E47A1 /* LaunchScreen.storyboard */,
 				81C0A6231C6F8E5C004E47A1 /* Info.plist */,
@@ -230,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81C0A6221C6F8E5C004E47A1 /* LaunchScreen.storyboard in Resources */,
+				81C0A64A1C6FAD48004E47A1 /* Product.json in Resources */,
+				81D17CA71C7D3517004872EA /* Xcode.gitignore in Resources */,
 				81C0A61F1C6F8E5C004E47A1 /* Assets.xcassets in Resources */,
 				81C0A61D1C6F8E5C004E47A1 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C0A61A1C6F8E5C004E47A1 /* ViewController.swift in Sources */,
+				81ADDF791C726F7100D7A1EF /* CreditCard.swift in Sources */,
+				81ADDF7D1C728C3300D7A1EF /* OrderSummaryViewContoller.swift in Sources */,
+				81C0A61A1C6F8E5C004E47A1 /* MainViewController.swift in Sources */,
 				81C0A6181C6F8E5C004E47A1 /* AppDelegate.swift in Sources */,
+				81ADDF7F1C729CB300D7A1EF /* Transaction.swift in Sources */,
+				81ADDF811C72BA5D00D7A1EF /* JSONHandler.swift in Sources */,
+				81C0A6481C6F91DD004E47A1 /* Order.swift in Sources */,
+				81C0A6521C703656004E47A1 /* NewProductViewController.swift in Sources */,
+				81C0A64C1C7016C5004E47A1 /* SaleViewController.swift in Sources */,
+				81ADDF771C72272600D7A1EF /* TenderViewController.swift in Sources */,
+				81C0A6461C6F8E8B004E47A1 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +528,7 @@
 				81C0A63E1C6F8E5C004E47A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81C0A63F1C6F8E5D004E47A1 /* Build configuration list for PBXNativeTarget "RegisterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +537,7 @@
 				81C0A6411C6F8E5D004E47A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81C0A6421C6F8E5D004E47A1 /* Build configuration list for PBXNativeTarget "RegisterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +546,7 @@
 				81C0A6441C6F8E5D004E47A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
