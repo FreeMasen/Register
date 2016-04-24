@@ -1,11 +1,3 @@
-//
-//  OrderSummaryViewContoller.swift
-//  Register
-//
-//  Created by Robert Masen on 2/15/16.
-//  Copyright © 2016 Robert Masen. All rights reserved.
-//
-
 import UIKit
 
 class OrderSummaryViewController : UIViewController, UITableViewDataSource, UITableViewDelegate {
