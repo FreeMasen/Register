@@ -199,34 +199,4 @@ class JSONHandler {
         }
         
     }
-    
-    static func debug() {
-        let path = getPath("Products")
-        print(path)
-        if fileManager.fileExistsAtPath(path) {
-            print("path exists")
-            if let data = getJSONData("Products") {
-                print("path has data")
-                print(fileManager.contentsAtPath(path))
-                if let dict = JSONtoDictionary(data) {
-                    print("converted to dictionary")
-                    print(dict)
-                    if let products = getJSONArray(dict) {
-                        print("converted to array")
-                        for p in products {
-                            print(p.toString())
-                        }
-                    } else {
-                        copyFileFromBundle()
-                    }
-                }
-            }
-        } else {
-            print("path does not exist")
-        }
-        let filepaths = NSSearchPathForDirectoriesInDomains(.DeveloperDirectory, .AllDomainsMask, true)
-        for p in filepaths {
-                print(p)
-        }
-    }
 }

@@ -24,7 +24,6 @@
 		81C0A64A1C6FAD48004E47A1 /* Product.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C0A6491C6FAD48004E47A1 /* Product.json */; };
 		81C0A64C1C7016C5004E47A1 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A64B1C7016C5004E47A1 /* SaleViewController.swift */; };
 		81C0A6521C703656004E47A1 /* NewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0A6511C703656004E47A1 /* NewProductViewController.swift */; };
-		81D17CA71C7D3517004872EA /* Xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 81D17CA61C7D3517004872EA /* Xcode.gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +67,6 @@
 		81C0A6491C6FAD48004E47A1 /* Product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Product.json; sourceTree = "<group>"; };
 		81C0A64B1C7016C5004E47A1 /* SaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
 		81C0A6511C703656004E47A1 /* NewProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductViewController.swift; sourceTree = "<group>"; };
-		81D17CA61C7D3517004872EA /* Xcode.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xcode.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				81ADDF7C1C728C3300D7A1EF /* OrderSummaryViewContoller.swift */,
 				81C0A6171C6F8E5C004E47A1 /* AppDelegate.swift */,
 				81C0A61B1C6F8E5C004E47A1 /* Main.storyboard */,
-				81D17CA61C7D3517004872EA /* Xcode.gitignore */,
 				81C0A6451C6F8E8B004E47A1 /* Product.swift */,
 				81C0A6471C6F91DD004E47A1 /* Order.swift */,
 				81ADDF7E1C729CB300D7A1EF /* Transaction.swift */,
@@ -264,7 +261,6 @@
 			files = (
 				81C0A6221C6F8E5C004E47A1 /* LaunchScreen.storyboard in Resources */,
 				81C0A64A1C6FAD48004E47A1 /* Product.json in Resources */,
-				81D17CA71C7D3517004872EA /* Xcode.gitignore in Resources */,
 				81C0A61F1C6F8E5C004E47A1 /* Assets.xcassets in Resources */,
 				81C0A61D1C6F8E5C004E47A1 /* Main.storyboard in Resources */,
 			);

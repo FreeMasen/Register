@@ -22,8 +22,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        JSONHandler.ensureJSONFileExists()
-        debug()
         getAvailableProducts()
         ProductsTableView.reloadData()
         
@@ -98,9 +96,5 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func saveProducts(){
         JSONHandler.saveProducts(self.products)
-    }
-    
-    func debug() {
-        JSONHandler.debug()
     }
 }
