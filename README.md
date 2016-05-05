@@ -8,7 +8,7 @@ User Experience
 When the user opens the application, they are greeted with a list of products that have been previously added to the application.
 The user can select an item from this list a touch the add to order button, this will update the subtotal and order count. 
 
-*TODO: add SS of Main Screen*
+![main screen](http://i.imgur.com/LGBXOjc.png)
 
 If the user does not see the desired item on the list, he/she can click the "add item" button (see below)
 
